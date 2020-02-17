@@ -1,12 +1,12 @@
 
 .fa-info-circled:before { content: '\e800'; } /* '' */
 .fa-location:before { content: '\e801'; } /* '' */
-.fa-mail:before { content: '\e802'; } /* '' */
 .fa-phone:before { content: '\e803'; } /* '' */
 .fa-phone-squared:before { content: '\f098'; } /* '' */
 .fa-facebook-1:before { content: '\f09a'; } /* '' */
 .fa-menu:before { content: '\f0c9'; } /* '' */
 .fa-pinterest-circled:before { content: '\f0d2'; } /* '' */
+.fa-mail-alt:before { content: '\f0e0'; } /* '' */
 .fa-angle-left:before { content: '\f104'; } /* '' */
 .fa-angle-right:before { content: '\f105'; } /* '' */
 .fa-angle-up:before { content: '\f106'; } /* '' */

@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fab';
-  src: url('../font/fab.eot?52895486');
-  src: url('../font/fab.eot?52895486#iefix') format('embedded-opentype'),
-       url('../font/fab.woff2?52895486') format('woff2'),
-       url('../font/fab.woff?52895486') format('woff'),
-       url('../font/fab.ttf?52895486') format('truetype'),
-       url('../font/fab.svg?52895486#fab') format('svg');
+  src: url('../font/fab.eot?85167591');
+  src: url('../font/fab.eot?85167591#iefix') format('embedded-opentype'),
+       url('../font/fab.woff2?85167591') format('woff2'),
+       url('../font/fab.woff?85167591') format('woff'),
+       url('../font/fab.ttf?85167591') format('truetype'),
+       url('../font/fab.svg?85167591#fab') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fab';
-    src: url('../font/fab.svg?52895486#fab') format('svg');
+    src: url('../font/fab.svg?85167591#fab') format('svg');
   }
 }
 */
@@ -57,12 +57,12 @@
  
 .fa-info-circled:before { content: '\e800'; } /* '' */
 .fa-location:before { content: '\e801'; } /* '' */
-.fa-mail:before { content: '\e802'; } /* '' */
 .fa-phone:before { content: '\e803'; } /* '' */
 .fa-phone-squared:before { content: '\f098'; } /* '' */
 .fa-facebook-1:before { content: '\f09a'; } /* '' */
 .fa-menu:before { content: '\f0c9'; } /* '' */
 .fa-pinterest-circled:before { content: '\f0d2'; } /* '' */
+.fa-mail-alt:before { content: '\f0e0'; } /* '' */
 .fa-angle-left:before { content: '\f104'; } /* '' */
 .fa-angle-right:before { content: '\f105'; } /* '' */
 .fa-angle-up:before { content: '\f106'; } /* '' */
