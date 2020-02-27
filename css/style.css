@@ -8,7 +8,6 @@ Last change:    22.10.2019
 Primary use:    MultiPurpose Template  
 -------------------------------------------------------------------*/
 
-@import "font-awesome.min.css";
 @import "et-line.css";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400,700);
@@ -1114,9 +1113,9 @@ a.btn-mod:focus{
 
 .scroll-down-icon{
     display: block;
-    width: 10px;
-    height: 10px;
-    margin-left: -5px;
+    width: 16px;
+    height: 16px;
+    margin-left: -10px;
     position: absolute;
     left: 50%;
     bottom: 4px;
@@ -1825,8 +1824,9 @@ a.logo:hover{
     display: none;
     float: right;
     vertical-align: middle;
-    font-size: 11px;
     font-weight: 400;
+    margin-top: 0;
+    margin-right: -10px;
     text-transform: uppercase;
     border-left: 1px solid rgba(0,0,0, .05);
     border-right: 1px solid rgba(0,0,0, .05);
@@ -1844,10 +1844,13 @@ a.logo:hover{
     -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     
-    -webkit-transition-property: background, color;
-    -moz-transition-property: background, color;
-    -o-transition-property: background, color;
-    transition-property:  background, color;
+    -webkit-transition-property: background, margin-top, color;
+    -moz-transition-property: background, margin-top, color;
+    -o-transition-property: background, margin-top, color;
+    transition-property:  background, margin-top, color;
+}
+.mobile-nav.small-height {
+    margin-top: -12px;
 }
 .mobile-nav:hover,
 .mobile-nav.active{
@@ -1866,12 +1869,12 @@ a.logo:hover{
 .mobile-on .mobile-nav{
     display: table;
 }
-.mobile-nav .fa{
+.mobile-nav .fab{
     height: 100%;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    font-size: 21px;
+    font-size: 32px;
 }
 
 /* Menu sub multi */
@@ -5287,31 +5290,7 @@ section:hover .small-item-carousel .owl-next{
     background-color: #fcfcfc;
     cursor: default;
 }
-.accordion > dt > a:after{
-    content: "\f107";
-    width: 15px;
-    height: 15px;
-    margin-top: -8px;
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    font-family: 'FontAwesome';
-    speak-as: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    font-size: 15px;
-    line-height: 15px;
-    text-align: center;
-    color: #999;
-    -webkit-font-smoothing: antialiased;
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
-    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
-    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-}
+
 .accordion > dt > a.active:after,
 .accordion > dt > a.active:hover:after{
     content: "\f106";
@@ -5365,31 +5344,6 @@ section:hover .small-item-carousel .owl-next{
     color: #000;
     border-color: #ddd;
     background-color: #fcfcfc;
-}
-.toggle > dt > a:after{
-    content: "\f107";
-    width: 15px;
-    height: 15px;
-    margin-top: -8px;
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    font-family: 'FontAwesome';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    font-size: 15px;
-    line-height: 15px;
-    text-align: center;
-    color: #999;
-    -webkit-font-smoothing: antialiased;
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
-    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
-    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .toggle > dt > a.active:after,
 .toggle > dt > a.active:hover:after{
