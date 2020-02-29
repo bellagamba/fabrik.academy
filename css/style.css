@@ -1208,6 +1208,7 @@ a.bg-video-button-muted{
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 51px;
+    margin-left: 51px;
     color: #fff;
     opacity: .9;
 }
