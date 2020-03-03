@@ -46,7 +46,6 @@
         
         init_classic_menu_resize();
         js_height_init();
-        split_height_init();
         
     });
     
@@ -91,7 +90,7 @@
     
     // Sections backgrounds
     
-    var pageSection = $(".home-section, .page-section, .small-section, .split-section");
+    var pageSection = $(".home-section, .page-section, .small-section");
     pageSection.each(function(indx){
         
         if ($(this).attr("data-background")){
@@ -120,14 +119,6 @@
             b.find(c).equalHeights()
         })
     }(jQuery);
-    
-    
-    // Progress bars
-    var progressBar = $(".progress-bar");
-    progressBar.each(function(indx){
-        $(this).css("width", $(this).attr("aria-valuenow") + "%");
-    });
-    
     
 
     /* ---------------------------------------------
@@ -327,7 +318,7 @@
             easing: "easeInOutExpo"
         });
         
-        var sections = $(".home-section, .split-section, .page-section");
+        var sections = $(".home-section, .page-section");
         var menu_links = $(".scroll-nav li a");
         
         $(window).scroll(function(){
@@ -458,10 +449,6 @@ function initWorkFilter(){
     })(jQuery);
 }
 
-
-
-
-
 /* ---------------------------------------------
  Height 100%
  --------------------------------------------- */
@@ -522,24 +509,6 @@ function init_wow(){
 }
 
     
-/* ---------------------------------------------
- Split section
- --------------------------------------------- */
-    
-function split_height_init(){
-    (function($){
-        
-        $(".ssh-table, .split-section-content").css("height", "auto");
-        
-        if ($(window).width() > 992) {
-            $(".split-section").each(function(){
-                var split_section_height = $(this).find(".split-section-content").innerHeight();
-                $(this).find(".ssh-table").height(split_section_height);
-            });
-        }
-            
-    })(jQuery);
-}
 
 
 /* ---------------------------------------------
