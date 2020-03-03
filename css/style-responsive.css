@@ -164,6 +164,7 @@ Primary use:    MultiPurpose Template
     
     .hs-line-1 {
         letter-spacing: 23px;
+        margin-left: 0;
     }
     .hs-line-13 {
         letter-spacing: 0.17em;
