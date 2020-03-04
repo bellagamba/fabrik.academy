@@ -131,8 +131,17 @@ Primary use:    MultiPurpose Template
 
     .page-section{
         padding: 120px 0;
-        
     }
+    
+    .page-section.top-section {
+        padding: 120px 0;
+        padding-top: 180px;
+    }
+
+    .page-section.top-section .top-section-description {
+        max-width: 50%;
+    }
+
     .page-section, .home-section, .small-section{
         background-attachment: scroll;
     }
@@ -264,6 +273,15 @@ Primary use:    MultiPurpose Template
     .page-section {
         padding: 80px 0;
     }    
+    .page-section.top-section {
+        padding: 120px 0;
+        padding-top: 180px;
+    }
+
+    .page-section.top-section .top-section-description {
+        max-width: 80%;
+    }
+
     .small-section {
         padding: 50px 0;
     }
@@ -655,6 +673,16 @@ Primary use:    MultiPurpose Template
     .page-section {
         padding: 60px 0;
     }
+
+    .page-section.top-section {
+        padding: 120px 0;
+        padding-top: 180px;
+    }
+
+    .page-section.top-section .top-section-description {
+        max-width: 90%;
+    }
+
     .small-section {
         padding: 30px 0;
     }
