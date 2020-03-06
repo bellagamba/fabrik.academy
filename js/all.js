@@ -38,7 +38,7 @@
         init_classic_menu();
         init_parallax();
         init_team();
-        init_map();
+        //init_map();
         init_wow();
     });
     
@@ -468,20 +468,20 @@ function js_height_init(){
  Google map
  --------------------------------------------- */
 
-var gmMapDiv = $("#map-canvas");
+// var gmMapDiv = $("#map-canvas");
 
-function init_map(){
-    (function($){
+// function init_map(){
+//     (function($){
         
-        $(".map-section").click(function(){
-            $(this).toggleClass("js-active");
-            $(this).find(".mt-open").toggle();
-            $(this).find(".mt-close").toggle();
-            return false;
-        });
+//         $(".map-section").click(function(){
+//             $(this).toggleClass("js-active");
+//             $(this).find(".mt-open").toggle();
+//             $(this).find(".mt-close").toggle();
+//             return false;
+//         });
 
-    })(jQuery);
-}
+//     })(jQuery);
+// }
 
 
 

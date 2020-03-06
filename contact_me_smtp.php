@@ -1,12 +1,12 @@
 <?php
 if($_POST)
 {
-    $to_Email       = "support@bestlooker.pro"; // Replace with recipient email address
+    $to_Email       = "info@fabrik.academy"; // Replace with recipient email address
 	$subject        = 'Message from website '.$_SERVER['SERVER_NAME']; //Subject line for emails
     
-    $host           = "smtp.mail.yahoo.com"; // Your SMTP server. For example, smtp.mail.yahoo.com
-    $username       = "your.email@yahoo.com"; //For example, your.email@yahoo.com
-    $password       = "1234567"; // Your password
+    $host           = "send.one.com"; // Your SMTP server. For example, smtp.mail.yahoo.com
+    $username       = "bellagamba@gmail.com"; //For example, your.email@yahoo.com
+    $password       = "1927ASRoma1927"; // Your password
     $SMTPSecure     = "ssl"; // For example, ssl
     $port           = 465; // For example, 465
     

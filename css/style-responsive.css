@@ -41,6 +41,7 @@ Primary use:    MultiPurpose Template
     }
     .hs-line-1 {
         letter-spacing: 40px;
+        margin-left: 20px;
     }
     .hs-line-2{
         font-size: 68px;
@@ -108,6 +109,7 @@ Primary use:    MultiPurpose Template
     
     .hs-line-1 {
         letter-spacing: 30px;
+        margin-left: 15px;
     }
     .hs-line-2{
         font-size: 60px;
@@ -172,8 +174,8 @@ Primary use:    MultiPurpose Template
 @media only screen and (max-width: 992px) {
     
     .hs-line-1 {
-        letter-spacing: 23px;
-        margin-left: 0;
+        letter-spacing: 24px;
+        margin-left: 12px;
     }
     .hs-line-13 {
         letter-spacing: 0.17em;
@@ -618,7 +620,7 @@ Primary use:    MultiPurpose Template
     }
     .hs-line-1 {
         font-size: 20px;
-        letter-spacing: 18px;
+        letter-spacing: 10px;
     }
     .hs-line-2{
         font-size: 28px;

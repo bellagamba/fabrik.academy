@@ -2770,6 +2770,13 @@ a.logo:hover{
 .section-text blockquote{
     margin-top: -5px;
 }
+
+.section-text .read-more {
+    font-size: 18px;
+    font-weight: 300;
+    float: right;
+}
+
 .section-bot-image{
     margin: 140px 0 -140px;
     text-align: center;
@@ -4145,7 +4152,7 @@ a.logo:hover{
     font-size: 12px;   
 }
 .footer a{
-    color: #888;
+    color: #fff;
     text-decoration: none;
     
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
