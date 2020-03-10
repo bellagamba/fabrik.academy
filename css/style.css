@@ -3729,7 +3729,7 @@ a.logo:hover{
 }
 .banner-heading{
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 0.3em;
@@ -3739,9 +3739,10 @@ a.logo:hover{
 
 .banner-decription{
     margin-bottom: 35px;
-    font-size: 15px;    
+    font-size: 16px;    
     font-weight: 300;
-    color: rgba(255,255,255, .7);
+    color: rgba(255,255,255, .8);
+    text-align: left;
 }
 
 .banner-image{
