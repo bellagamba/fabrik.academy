@@ -3972,7 +3972,7 @@ a.logo:hover{
     position: absolute;
     top: 0;
     left: 0;
-    background: $brand-color;
+    background: $primary-color;
     
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -4163,7 +4163,7 @@ a.logo:hover{
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 .footer a:hover{
-    color: $brand-color;
+    color: $primary-color;
     text-decoration: underline;
 }
 .footer-copy{
@@ -4188,7 +4188,7 @@ a.logo:hover{
     margin: 0 6px;
     text-align: center;
     display: inline-block;
-    color: $brand-color;
+    color: $primary-color;
     
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
@@ -4210,7 +4210,7 @@ a.logo:hover{
     position: absolute;
     top: 0;
     left: 0;
-    border: 1px solid $brand-color;
+    border: 1px solid $primary-color;
     
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -4233,7 +4233,7 @@ a.logo:hover{
     color: #fff;
 }
 .footer-social-links a:hover:before{
-    background: $brand-color;
+    background: $primary-color;
 }
 
 a.link-to-top{

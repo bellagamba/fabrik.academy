@@ -4150,7 +4150,7 @@ a.logo:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background: #3ca1ba;
+  background: #111;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -4347,7 +4347,7 @@ a.logo:hover {
 }
 
 .footer a:hover {
-  color: #3ca1ba;
+  color: #111;
   text-decoration: underline;
 }
 
@@ -4374,7 +4374,7 @@ a.logo:hover {
   margin: 0 6px;
   text-align: center;
   display: inline-block;
-  color: #3ca1ba;
+  color: #111;
   -webkit-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
   -moz-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
   -o-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
@@ -4397,7 +4397,7 @@ a.logo:hover {
   position: absolute;
   top: 0;
   left: 0;
-  border: 1px solid #3ca1ba;
+  border: 1px solid #111;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -4418,7 +4418,7 @@ a.logo:hover {
 }
 
 .footer-social-links a:hover:before {
-  background: #3ca1ba;
+  background: #111;
 }
 
 a.link-to-top {
