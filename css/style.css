@@ -697,7 +697,7 @@ a.btn-mod:hover,
 a.btn-mod:focus {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.85);
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(60, 161, 186, 0.7);
   text-decoration: none;
   outline: none;
   border-color: transparent;
